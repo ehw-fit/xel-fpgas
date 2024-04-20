@@ -22,10 +22,10 @@ _Generation and exploration of approximate circuits and accelerators has been a 
 ## Requirements:
 See [requirements.txt](requirements.txt) (you can modify the desired version, there is no strict limitation of the versions). 
 
-It is also necessary to have installed [ABC](https://github.com/berkeley-abc/abc) in the system and to be available as `berkley-abc` command. If you have a different location, please modify [autoax/abcsynth.py](autoax/abcsynth.py) file or make an alias. At debian-based linux you can install it by a command
+It is also necessary to have installed [ABC](https://github.com/berkeley-abc/abc) in the system and to be available as `berkeley-abc` command. If you have a different location, please modify [autoax/abcsynth.py](autoax/abcsynth.py) file or make an alias. At debian-based linux you can install it by a command
 
 ```bash
-sudo apt install berkley-abc
+sudo apt install berkeley-abc
 ```
 
 ## Example application
